@@ -3,9 +3,7 @@
 /*General*/
 html
 {
-    font-family: 'Roboto', sans-serif;
-    
-
+    font-family: 'Roboto', sans-serif
 }
 .Arow
 {
@@ -16,8 +14,6 @@ html
 .TitrePage
 {
 padding-right: 25%;
-
-
 }
 .decorationNone
 {
@@ -27,28 +23,19 @@ body
 {
     margin: 0;
     padding: 0;
-
-
 }
-
 h2
 {
  font-weight: bold;
  font-family: 'Shrikhand', cursive;
  margin-left: 20px;
  font-size: 25px;
-
 }
 header
 {
-    font-family: 'Shrikhand', cursive;
- 
-    
-
+    font-family: 'Shrikhand', cursive; 
 }
-
 /*Propriété Flex*/
-
 .flexCentre
  {
     display: flex;
@@ -61,15 +48,12 @@ header
     display: flex;
     justify-content: space-around;
     align-items: center;
-
 }
-
 .flexBetween
 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 .flexColumnCentre
  {
@@ -84,19 +68,14 @@ header
     flex-direction: column;
     display: flex;
     justify-content: space-around;
-    
-
 }
-
 .flexColumnBetween
 {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
  }
-
 /*header*/
-
 .ImageHeader
 {
     max-width: 100%;
@@ -105,11 +84,8 @@ header
     object-fit: cover;
     height: 360px;
     position: absolute;
- 
- 
 }
 /*body*/
-
 .BackGris
 {
     background-color: #fbfbfb;
@@ -119,12 +95,9 @@ position: relative;
 height: 100%;
 margin-top: 70%;
 padding-bottom: 40px;
-
-  
-
 }
-/*Précision TITRE*/
 
+/*Précision TITRE*/
 .description_platgout {
   white-space: nowrap;
   overflow: hidden;
@@ -132,8 +105,8 @@ padding-bottom: 40px;
   font-weight: 300;
   font-size: 16px;
 }
-  /*Menu*/
 
+  /*Menu*/
   .menu h4 {
     font-weight: 200;
     margin-left: 10px;
@@ -156,7 +129,6 @@ padding-bottom: 40px;
     margin-left: 5%;
     margin-right: 5%;
     overflow: hidden;
-   
   }
   .menu .menu-card:hover .check {
     width: 25%;
@@ -171,18 +143,12 @@ padding-bottom: 40px;
     display: grid;
     grid-template-rows: 30px;
     grid-template-columns: auto auto;
-    grid-template-areas: "text1 ." "text2 price";
-   
-   
+    grid-template-areas: "text1 ." "text2 price"; 
   }
   .menu .choice p {
     display: block;
-    margin-right: 10px;
- 
-   
-  }
-
-  
+    margin-right: 10px;   
+  }  
   .menu .choice p:nth-child(1) {
     grid-area: text1;
     font-weight: 700;
@@ -194,10 +160,10 @@ padding-bottom: 40px;
   .menu .choice p:nth-child(3) {
     grid-area: price;
     display: flex;
-    justify-content: flex-end;
-   
+    justify-content: flex-end;  
   }
-  
+
+/*CHECK*/
   .check {
     transition: width 1.2s linear;
     width: 0;
@@ -225,8 +191,8 @@ padding-bottom: 40px;
       transform: rotate(360deg);
     }
   }
-  /*commander*/
 
+  /*commander*/
 .buttonCommander
 {
 color: white;
@@ -243,11 +209,9 @@ color: white;
   cursor: pointer;
   transform: scale(1.05);
   box-shadow: 1px 10px 12px rgb(204, 203, 203);
- 
 }
+
 /*Footer*/
-
-
 .ColorFoot
 {
     color: white;
@@ -259,18 +223,15 @@ color: white;
     font-size: 14px;
     padding-top: 10px;
     margin-left: 25px;
-
 }
 .MarginFoot
 {
-    margin: 25px;
-    
+    margin: 25px;   
 }
 .Footer {
     background-color:  #3f3d3d;;
     bottom: 0;
-    height: 200px;
-   
+    height: 200px;   
 }
 .paddingFoot
 {
@@ -283,8 +244,7 @@ color: white;
 }
 /*APPARATIONS*/
 .choice,.menu-card
-{
-   
+{  
     animation: apparition 1.2s ease-out;
 }
 @keyframes apparition
@@ -303,7 +263,6 @@ color: white;
   font-size: x-large;
   font-weight: inherit;
 }
-
 .fa-heart:hover {
   font-weight: bold;
   color: #d200da;
@@ -339,7 +298,6 @@ color: white;
 /*Grand écran*/
 
 @media (min-width:1200px) {
-
   .Bloc1
   {
    float: left;
@@ -363,8 +321,7 @@ color: white;
   {
   margin-left:35%;
   margin-right: 35%;
-  margin-top: 31%;
-  
+  margin-top: 31%; 
   }
   H1
   {
@@ -374,31 +331,20 @@ color: white;
   {
     padding-left: 35%;
   }
-    
-    
-    
-  
   .BackGris
   {
   
     height: 600px;
     margin-top: 32%;
-
-   
   }
 }
 
-@media (max-width:1200px) and (min-width:990px) {
-  
+@media (max-width:1200px) and (min-width:990px) { 
   .BackGris
-    {
-    
+    { 
       height: 950px;
-      margin-top:42%;
-  
-     
+      margin-top:42%; 
     }
-
 .Bloc1
 {
  float: left;
@@ -411,10 +357,7 @@ color: white;
 }
 .Bloc3
 {
-
  width: 50%;
-
-
 }
  .ImageHeader
  {
@@ -438,22 +381,16 @@ margin-right: 30%;
   
 
 }
-@media (max-width:990px) and (min-width:750px) {
-  
 
-
-  
+@media (max-width:990px) and (min-width:750px) {   
 .TitrePage
 {
   padding-right: 15%;
 }
   .BackGris
   {
-  
     height: 1000px;
-    margin-top: 40%;
-
-   
+    margin-top: 40%; 
   }
  .Bloc1
  {
@@ -470,7 +407,6 @@ margin-right: 30%;
   justify-content: center;
   width: 50%;
  }
- 
  .ImageHeader
  {
   height: 500px;
@@ -480,13 +416,11 @@ margin-right: 30%;
 margin-left:35%;
 margin-right: 35%;
 margin-top: 0%;
-
  }
  H1
  {
    margin-right: 26%
  }
-
 }
  
 @media (max-width:750px) and (min-width:450px)
@@ -500,9 +434,6 @@ margin-top: 0%;
   height: 100%;
   margin-top: 40%;
   padding-bottom: 40px;
-  
-    
-  
   }
   .TitrePage
   {
